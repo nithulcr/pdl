@@ -52,7 +52,7 @@ export default function WhoWeAre() {
       {/* pinned wrapper with 80px top padding */}
       <div ref={pinRef} className="pt-20">
         <div className="max-w-[1250px] mx-auto px-6">
-          <div className="heading flex flex-col items-center max-w-[850px] mx-auto mb-10">
+          <div className="heading flex flex-col items-center max-w-[900px] mx-auto mb-10">
             <div className="flex items-center gap-2 text-site  uppercase text-sm">
               <SignatureIcon width={20} height={20} />
               Who We Are
@@ -60,17 +60,17 @@ export default function WhoWeAre() {
 
             <h2
               ref={headingRef}
-              className="text-center text-3xl lg:text-[54px] font-light mt-6 leading-tight relative"
+              className="text-center text-3xl lg:text-[52px] font-light mt-6 leading-tight relative"
             >
               <span className="relative block">
                 <span className="filling-line-fill">
-                 Host on pdl.com is a professional website development firm in Kannur who understands your requirement and scalable of delivering a complete satisfying solution, on time. 
+HOST ON PDL is a Kannur-based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
                 </span>
                 <span
                   className="filling-line-base"
                   aria-hidden="true"
                 >
-                  Host on pdl.com is a professional website development firm in Kannur who understands your requirement and scalable of delivering a complete satisfying solution, on time. 
+HOST ON PDL is a Kannur-based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
                 </span>
               </span>
             </h2>

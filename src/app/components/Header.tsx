@@ -16,26 +16,17 @@ const navItems = [
 
    
     {
-        label: "Services",
+        label: "Properties",
         href: "#",
         submenu: [
-            { href: "", label: "Service 1" },
-            { href: "", label: "Service 2" },
-            { href: "", label: "Service 3" },
-            { href: "", label: "Service 4" },
-            { href: "", label: "Service 5" },
-            { href: "", label: "Service 6" },
-            { href: "", label: "Service 7" },
-            { href: "", label: "Service 8" },
-            { href: "", label: "Service 9" },
-
-
-
-  
+            { href: "", label: "Binghati" },
+            { href: "", label: "Danube Properties" },
+            { href: "", label: "Sobha Realty" },
+          
    
         ],
     },
-    { href: "#", label: "Solutions" },
+    { href: "#", label: "IT & Digital Services" },
     { href: "#", label: "Blogs" },
     { href: "#", label: "Contact" },
 ];
@@ -114,7 +105,7 @@ export default function Header() {
                                         <path d="M12.8923 2.29199C15.2793 2.29199 17.5685 3.2402 19.2563 4.92803C20.9441 6.61586 21.8923 8.90504 21.8923 11.292C21.8923 14.366 20.2163 16.882 18.4503 18.687C17.568 19.5791 16.6053 20.3878 15.5743 21.103L15.1483 21.393L14.9483 21.526L14.5713 21.766L14.2353 21.971L13.8193 22.213C13.537 22.3742 13.2175 22.4589 12.8923 22.4589C12.5672 22.4589 12.2477 22.3742 11.9653 22.213L11.5493 21.971L11.0293 21.651L10.8373 21.526L10.4273 21.253C9.31517 20.5005 8.27924 19.6411 7.33433 18.687C5.56833 16.881 3.89233 14.366 3.89233 11.292C3.89233 8.90504 4.84055 6.61586 6.52837 4.92803C8.2162 3.2402 10.5054 2.29199 12.8923 2.29199ZM12.8923 8.29199C12.4984 8.29199 12.1083 8.36959 11.7443 8.52035C11.3803 8.67112 11.0496 8.8921 10.771 9.17067C10.4924 9.44925 10.2715 9.77996 10.1207 10.1439C9.96993 10.5079 9.89233 10.898 9.89233 11.292C9.89233 11.686 9.96993 12.0761 10.1207 12.44C10.2715 12.804 10.4924 13.1347 10.771 13.4133C11.0496 13.6919 11.3803 13.9129 11.7443 14.0636C12.1083 14.2144 12.4984 14.292 12.8923 14.292C13.688 14.292 14.451 13.9759 15.0137 13.4133C15.5763 12.8507 15.8923 12.0876 15.8923 11.292C15.8923 10.4963 15.5763 9.73328 15.0137 9.17067C14.451 8.60806 13.688 8.29199 12.8923 8.29199Z" fill="#f1f1f1" />
                                     </svg>
 
-                                    <span className="font-light">Kerala | Bangalore | Pune</span>
+                                    <span className="font-light">Kerala | Dubai</span>
                                 </div>
                                 <span className="font-light"> | </span>
                                 <div className="flex flex-row gap-4 relative h-full header-top-social items-center">

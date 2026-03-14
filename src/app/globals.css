@@ -66,6 +66,12 @@ h1{
 .bg-nav-cover .logo-white{
   display: block;
 }
+.header-menu-open .logo-black{
+  display: none;
+}
+.header-menu-open .logo-white{
+  display: block;
+}
 .filling-line-fill {
   --size-blend: 0%;
   background-image: linear-gradient(0deg, var(--siteColor), var(--siteColor));
@@ -313,7 +319,7 @@ height:100%;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000047;
+  background: #00000023;
   background-size: cover;
   z-index: 1;
 

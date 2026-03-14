@@ -12,24 +12,24 @@ import Image from "next/image";
 
 const slidesContent = [
   {
-    imageSrc: "/banner1.webp",
-    heading: "Custom Apps Built for Your Business",
+    imageSrc: "/hero1.png",
+    heading: "Binghatti, Redefining Real Estate Design",
     description1:
-      "Tailored web and mobile solutions with seamless integration and ongoing support.",
+      "Binghatti creates iconic hyper-properties through innovative design.",
     contactLink: "#",
   },
   {
-    imageSrc: "/banner2.webp",
-    heading: "From Idea to Launch, Together",
+    imageSrc: "/hero2.png",
+    heading: "Danube Properties,  Multi-Million Dollar Group",
     description1:
-      "Agile development combining modern design, performance, and real-time collaboration.",
+      "The Group runs award-winning brands including Danube Building Materials, Danube Home, and Alucopanel.",
     contactLink: "#",
   },
   {
-    imageSrc: "/banner3.webp",
-    heading: "Scalable Solutions, Real Results",
+    imageSrc: "/hero3.png",
+    heading: "Sobha Realty, <br/> Building Excellence",
     description1:
-      "Flexible applications that streamline your workflows and enhance user experience.",
+      "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
     contactLink: "#",
   },
   {
@@ -126,7 +126,7 @@ const Hero = () => {
             >
               {slide.heading && (
                 <h1
-                  className="text-5xl md:text-[70px] font-bold mb-2 head-font max-w-[600px]"
+                  className="text-5xl md:text-[70px] font-bold mb-2 head-font max-w-[700px]"
                   dangerouslySetInnerHTML={{ __html: slide.heading }}
                 />
               )}

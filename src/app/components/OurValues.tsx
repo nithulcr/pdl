@@ -103,36 +103,38 @@ const Services = () => {
                         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10  w-full">
                             <div className="flex flex-col gap-10 ">
                                 <div className="services-rotate-right bg-[#26957d40] md:bg-[var(--background2)] hover:bg-[#26957d40] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">50+</h3>
+                                    <h3 className="text-7xl font-monument">100+</h3>
                                     <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
-                                        awards &<br />
-                                        recognition
+                                        Happy 
+<br />
+                                       Clients
                                     </p>
                                 </div>
                                 <div className="services-rotate-right bg-[#e5484d3b] md:bg-[var(--background2)] hover:bg-[#e5484d3b] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">20+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
-                                        creative<br />
-                                        minds
+                                    <h3 className="text-7xl font-monument">7+</h3>
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[250px] ml-auto mt-20">
+                                       Years of Real 
+                                      Estate Experience
                                     </p>
                                 </div>
                               
                             </div>
                             <div className="flex flex-col gap-10  md:mt-[-50]">
                                 <div className="services-rotate-left bg-[#6f8f1042] md:bg-[var(--background2)] hover:bg-[#6f8f1042] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">900+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
-                                        projects
-                                        <br />
-                                        completed
+                                    <h3 className="text-7xl font-monument">$1K</h3>
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-20">
+                                       Average savings per
+                                       
+                                        $100K for our buyers
                                     </p>
                                 </div>
                                 <div className="services-rotate-left bg-[#348bf142] md:bg-[var(--background2)] hover:bg-[#348bf142] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">10+</h3>
+                                    <h3 className="text-7xl font-monument">10</h3>
                                     <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
-                                        years of
+                                       Licensed Real
                                         <br />
-                                        experience
+                                        Estate Agents
+
                                     </p>
                                 </div>
                             </div>
