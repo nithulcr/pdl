@@ -14,6 +14,8 @@ import CaseStudy from "./CaseStudy";
 
 
 import ThreeStepProcess from "./ThreeStepProcess";
+import ItTech from "./It-tech";
+
 import MainServices from "./MainServices";
 
 import Testimonials from "./Testimonials";
@@ -38,10 +40,13 @@ export default function HomePageClient() {
         
           <Services />
           <CaseStudy />
-          <ThreeStepProcess />
+          <ItTech />
+          
 
 
           <MainServices />
+          <ThreeStepProcess />
+
 
           <Testimonials />
           <Blogs />

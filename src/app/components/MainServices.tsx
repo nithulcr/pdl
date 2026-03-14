@@ -72,21 +72,38 @@ const Services = () => {
     const serviceCards = [
         {
             number: "01",
-            title: "Mobile Application",
-            description: "Custom Android/iOS app, integrating loyalty features and business tools.",
+            title: "Website Design & Development",
+            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
         {
             number: "02",
 
-            title: "Web Application",
-            description: "Web app for a finance startup, delivering fast performance, flexible integrations, and helping streamline processes.",
+            title: "Business Website Solutions",
+           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
         {
             number: "03",
 
-            title: "App Support & Maintenance",
-            description:
-                "Multi-dimensional maintenance and support, web application maintenance, code and database optimization, end-to-end IT helpdesk support.",
+            title: "Landing Page Development",
+          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        },
+        {
+            number: "04",
+
+            title: "Lead Generation Campaigns",
+          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        },
+        {
+            number: "05",
+
+            title: "Digital Business Support",
+          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        },
+        {
+            number: "06",
+
+            title: " Social Media Marketing",
+          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
     ];
 

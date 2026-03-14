@@ -11,17 +11,17 @@ const steps = [
     {
         title: "Share Your Requirements",
         number: '01',
-        description: "Begin by letting us know your business goals and what you need. Host on PDL simplifies this step with transparent and real-time communication.",
+        description: "Tell us your business goals and the solution you need. Our team understands your vision and requirements before moving forward.",
     },
     {
-        title: "Design & Development",
+        title: "Planning & Development",
         number: '02',
-        description: "Our team collaborates with you, leveraging agile and proven frameworks to transform your needs into tailored web and mobile solutions.",
+        description: "We design and develop tailored digital solutions using modern technologies and proven methods to turn your ideas into a functional product.",
     },
     {
-        title: "Launch & Support",
+        title: "Launch & Ongoing Support",
         number: '03',
-        description: "We deploy your solution and provide ongoing maintenance to ensure your business runs smoothly and efficiently.",
+        description: "Once your project is ready, we launch it smoothly and provide continuous support and maintenance to keep everything running efficiently.",
     },
 
 ];
@@ -72,7 +72,7 @@ export default function ThreeStepProcess() {
                             <div className="bg-[var(--blue1)] w-full">
 
                                 <h3 className="text-xl md:text-[22px] font-bold mb-2 text-site">{step.title}</h3>
-                                <p className="text-md  font-light  max-w-[300px] pb-2">{step.description}</p>
+                                <p className="text-md  font-light  max-w-[310px] pb-2 text-justify">{step.description}</p>
                             </div>
                         </div>
                     ))}

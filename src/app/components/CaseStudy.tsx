@@ -9,29 +9,24 @@ import AnimatedButton from "../components/AnimatedButton";
 
 const caseStudies = [
     {
-        title: "E-Book Store",
-        description: "Built a mobile bookstore platform enabling fast online",
-        image: "/img5.jpg",
+        title: "Apartments",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        image: "/apartments.png",
         video: "/video.mp4",
     },
     {
-        title: "QuickDocs",
-        description: "Developed an on-demand doctor consultation app",
-        image: "/img3.webp",
+        title: "Townhouse",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        image: "/townhouse.png",
         video: "/video.mp4",
     },
     {
-        title: "H2GO Water",
-        description: "Launched an on-demand water delivery service",
-        image: "/img4.jpg",
+        title: "Villa",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        image: "/villa.png",
         video: "/video.mp4",
     },
-    {
-        title: "CargoTrack",
-        description: "Created a GPS-powered logistics app",
-        image: "/img1.png",
-        video: "/video.mp4",
-    },
+
 
 ];
 
@@ -83,20 +78,20 @@ const CaseStudy = () => {
                     transition={{ duration: 0.5 }}
                     className="heading flex justify-between items-center  text-left mb-14"
                 >
-                   <div className="max-w-[360px]">
+                   <div className="max-w-[400px]">
                      <div className="flex gap-2 text-site mb-3 uppercase text-sm md:justify-start">
                         <SignatureIcon width={20} height={20} />
-                        Case Study
+                        Featured
                     </div>
                     <h2 ref={fadeRef} className="mt-3 text-center md:text-left fade-up-stagger text-3xl lg:text-[46px] font-medium mb-1 leading-tight text-site">
-                        Let Our Portfolio Tell the Story
+                       Featured Off-Plan Properties
                     </h2>
                    </div>
 
-                    <AnimatedButton href="" label="View Our Works" className="w-fit transparent-btn2 mt-3" />
+                    <AnimatedButton href="" label="View More" className="w-fit transparent-btn2 mt-3" />
 
                 </motion.div>
-                <div className="grid md:grid-cols-2  gap-10">
+                <div className="grid md:grid-cols-3  gap-10">
                     {caseStudies.map((item, idx) => (
                         <div
                             className="case-col group  overflow-hidden  transition-shadow duration-200"
@@ -104,14 +99,14 @@ const CaseStudy = () => {
                             onMouseEnter={() => handleMouseEnter(idx)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div className="w-full aspect-[2/1.5] rounded-2xl relative overflow-hidden mb-4 flex justify-center items-center bg-gray-100">
+                            <div className="w-full aspect-[1.2/1.5] rounded-xl relative overflow-hidden mb-4 flex justify-center items-center bg-gray-100">
                                 {playingIdx === idx ? (
                                     <video
                                         ref={el => { videoRefs.current[idx] = el; }}
 
                                         src={item.video}
                                         width={800}
-                                        height={800}
+                                        height={1200}
                                         autoPlay
                                         muted
                                         loop={isManual}
@@ -119,7 +114,7 @@ const CaseStudy = () => {
                                         className="object-cover w-full h-full"
                                     />
                                 ) : (
-                                    <Image src={item.image} alt={item.title} width={800} height={800} className="object-cover w-full h-full" />
+                                    <Image src={item.image} alt={item.title} width={800} height={1200} className="object-cover w-full h-full" />
                                 )}
                             </div>
                             <div className="px-4">
