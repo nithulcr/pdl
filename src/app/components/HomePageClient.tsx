@@ -16,7 +16,6 @@ import CaseStudy from "./CaseStudy";
 
 
 import ThreeStepProcess from "./ThreeStepProcess";
-import Team from "./Team";
 
 import MainServices from "./MainServices";
 
@@ -25,6 +24,7 @@ import Blogs from "./Blogs";
 
 
 import Footer from "./Footer";
+import CEO from "./CEO";
 
 export default function HomePageClient() {
     const [showContent, setShowContent] = useState(true);
@@ -44,7 +44,7 @@ export default function HomePageClient() {
         
           <Services />
           <CaseStudy />
-          <Team />
+          <CEO />
           
 
 
