@@ -21,7 +21,7 @@ const ServicesDataEn = [
   {
     id: "01",
     img: '/hero1.png',
-     icon: '/binghatti.png',
+     icon: '/binghatti2.png',
     title: <>Binghatti</>,
     description: "Binghatti creates iconic hyper-properties through innovative design.",
     link: "#",
@@ -29,7 +29,7 @@ const ServicesDataEn = [
   {
     id: "02",
     img: '/hero2.png',
- icon: '/danube.png',
+ icon: '/danube2.png',
     title: <>Danube Properties</>,
     description: "The Group runs award-winning brands including Danube Building Materials, Danube Home, and Alucopanel.",
     link: "#",
@@ -40,7 +40,7 @@ const ServicesDataEn = [
     id: "03",
     img: '/hero3.png',
 
-    icon: '/sobha.png',
+    icon: '/sobha2.png',
     title: <>Sobha Realty</>,
     description: "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
     link: "#",

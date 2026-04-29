@@ -10,6 +10,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
+import SignatureIcon from "../components/SignatureIcon";
+
 
 // ✅ Icons
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -36,7 +38,7 @@ const Team = () => {
       id="Team"
       className="team section overflow-hidden py-14 lg:py-24"
     >
-      <div className="max-w-[1360px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1400px] mx-auto px-4 md:px-6">
         {/* Heading + Arrows */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -46,12 +48,14 @@ const Team = () => {
           className="heading md:flex justify-between items-end text-left mb-10 md:mb-16 gap-4"
         >
           <div className="max-w-[500px] flex flex-col gap-2">
-            <div className="flex items-center gap-2 text-site mb-2 uppercase text-md">
-              Our Team
-            </div>
+            <div className="flex  gap-2 text-site mb-3 uppercase text-sm  md:justify-start">
+                        <SignatureIcon width={20} height={20} />
+
+                      Our Team
+                    </div>
             <h2
               ref={fadeRef}
-              className="text-3xl lg:text-[54px] font-bold mb-2 leading-none"
+              className="text-3xl lg:text-[54px]  mb-2 leading-none"
             >
               The Team Behind <span className="text-site">Our Success</span>
             </h2>
@@ -118,7 +122,7 @@ const Team = () => {
                     {item.position}
                   </div>
 
-                  <span className="bg-[var(--siteColor)] block w-full h-[4px] absolute bottom-0 left-0"></span>
+                  <span className="bg-[var(--siteColor3)] block w-full h-[4px] absolute bottom-0 left-0"></span>
                 </div>
               </div>
             </SwiperSlide>

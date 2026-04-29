@@ -48,7 +48,7 @@ export default function Insights() {
                         
                                                 Market Insights
                                             </div>
-                        <h2 ref={fadeRef} className="fade-up-stagger text-3xl lg:text-[50px] max-w-[600px] font-bold mb-10 leading-none">
+                        <h2 ref={fadeRef} className="fade-up-stagger text-3xl lg:text-[50px] max-w-[600px]  mb-10 leading-none">
                             Why the UAE?
                             A New Era of Wealth Creation.
                         </h2>
