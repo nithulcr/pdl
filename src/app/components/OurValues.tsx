@@ -76,7 +76,7 @@ const Services = () => {
 
     return (
         <section ref={containerRef} id="services" className="section overflow-hidden py-12 lg:py-24">
-            <div className="max-w-[1250px] mx-auto px-6">
+            <div className="max-w-[1360px] mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ const Services = () => {
                             <div className="flex flex-col gap-10 ">
                                 <div className="services-rotate-right bg-[#26957d40] md:bg-[var(--background2)] hover:bg-[#26957d40] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-7xl font-monument">100+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
                                         Happy 
 <br />
                                        Clients
@@ -112,7 +112,7 @@ const Services = () => {
                                 </div>
                                 <div className="services-rotate-right bg-[#e5484d3b] md:bg-[var(--background2)] hover:bg-[#e5484d3b] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-7xl font-monument">7+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[250px] ml-auto mt-20">
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[250px] ml-auto mt-10 lg:mt-20">
                                        Years of Real 
                                       Estate Experience
                                     </p>
@@ -122,7 +122,7 @@ const Services = () => {
                             <div className="flex flex-col gap-10  md:mt-[-50]">
                                 <div className="services-rotate-left bg-[#6f8f1042] md:bg-[var(--background2)] hover:bg-[#6f8f1042] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-7xl font-monument">$1K</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-20">
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-10 lg:mt-20">
                                        Average savings per
                                        
                                         $100K for our buyers
@@ -130,7 +130,7 @@ const Services = () => {
                                 </div>
                                 <div className="services-rotate-left bg-[#348bf142] md:bg-[var(--background2)] hover:bg-[#348bf142] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-7xl font-monument">10</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-20">
+                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
                                        Licensed Real
                                         <br />
                                         Estate Agents

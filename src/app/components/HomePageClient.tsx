@@ -5,8 +5,10 @@ import { useState, useEffect } from "react";
 import Header from "./Header";
 import Hero from "./Hero";
 import WhoWeAre from "./WhoWeAre";
-import ProjectsScroller from "./ProjectsScroller";
+// import ProjectsScroller from "./ProjectsScroller";
+import Insights from "./Insights";
 import OurValues from "./OurValues";
+
 
 
 import Services from "./Services";
@@ -35,8 +37,10 @@ export default function HomePageClient() {
           <Header />
           <Hero />
           <WhoWeAre />
-          <ProjectsScroller />
+          {/* <ProjectsScroller /> */}
+          <Insights />
           <OurValues />
+
         
           <Services />
           <CaseStudy />

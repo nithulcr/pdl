@@ -57,7 +57,7 @@ const Services = () => {
                         ease: "power3.out",
                         scrollTrigger: {
                             trigger: elem,
-                            start: "top 90%",
+                            start: "top 100%",
                             end: "bottom 20%",
                             scrub: 0.7,
                         },
@@ -72,13 +72,13 @@ const Services = () => {
     const serviceCards = [
         {
             number: "01",
-            title: "Website Design & Development",
+            title: "Domain | Server | SSL Certificate",
             description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
         {
             number: "02",
 
-            title: "Business Website Solutions",
+            title: "Responsive Website Development",
            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
         {
@@ -96,7 +96,7 @@ const Services = () => {
         {
             number: "05",
 
-            title: "Digital Business Support",
+            title: "Lead Automation Usign Ai",
           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
         {
@@ -109,7 +109,7 @@ const Services = () => {
 
     return (
         <section ref={containerRef} id="services" className="bg-[var(--foreground)] text-white section overflow-hidden py-12 lg:py-24">
-            <div className="max-w-[1250px] mx-auto px-6">
+            <div className="max-w-[1360px] mx-auto px-6">
                 {/* Heading */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

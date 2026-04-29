@@ -2,7 +2,7 @@
 
 :root {
   --background: #fff;
-  --background2: #f5f5f5;
+  --background2: #f8f8f8;
   --foreground: #000;
   --siteColor: #0a0707;
   /* --siteColor: #130d25; */
@@ -56,14 +56,20 @@ h1{
 .others{
   background-color: white;
 }
-.logo-white{
+.logo-black{
+  display: none;
+}
+.bg-nav-cover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.index-page .bg-nav-cover .logo-white{
   display: none;
 }
 
-.bg-nav-cover .logo-black{
+.index-page .bg-nav-cover .logo-black{
   display: none;
 }
-.bg-nav-cover .logo-white{
+.index-page .bg-nav-cover .logo-black{
   display: block;
 }
 .header-menu-open .logo-black{
@@ -145,7 +151,34 @@ h1{
 .animate-menuSlideUp {
   animation: menuSlideUp 0.3s ease forwards;
 }
+.pulse-action{
 
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--siteColor3);
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: dotPulse 1.5s infinite ease-in-out;
+
+}
+@keyframes dotPulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+}
+50% {
+    transform: translateY(-50%) scale(1.8);
+    opacity: 0.6;
+}
+100% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+}
+}
 .hamburger span{
   width: 32px;
   height: .08rem;

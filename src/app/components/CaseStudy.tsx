@@ -9,19 +9,19 @@ import AnimatedButton from "../components/AnimatedButton";
 
 const caseStudies = [
     {
-        title: "Apartments",
+        title: "Sobha Reality Sobha Elwood",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/apartments.png",
         video: "/video.mp4",
     },
     {
-        title: "Townhouse",
+        title: "Danube Properties",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/townhouse.png",
         video: "/video.mp4",
     },
     {
-        title: "Villa",
+        title: "Fairmont Residence Ras Al Khaima",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/villa.png",
         video: "/video.mp4",
@@ -70,7 +70,7 @@ const CaseStudy = () => {
 
     return (
         <section ref={containerRef} id="CaseStudy" className="section overflow-hidden py-12 lg:py-24">
-            <div className="max-w-[1250px] mx-auto px-6">
+            <div className="max-w-[1360px] mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}

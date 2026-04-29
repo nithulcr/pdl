@@ -13,7 +13,7 @@ export default function ThreeStepProcess() {
     useStaggeredFadeUp(fadeRef as React.RefObject<HTMLElement>);
     return (
         <section className=" bg-[var(--background2)] py-14 lg:py-24 rounded-3xl relative top-shape overflow-hidden">
-            <div className="max-w-[1250px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
+            <div className="max-w-[1360px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
                 <div className="relative flex justify-center  lg:flex h-full">
 
                     <Image
@@ -31,7 +31,7 @@ export default function ThreeStepProcess() {
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 0.5 }} className="heading flex flex-col gap-4   mb-10">
+                        transition={{ duration: 0.5 }} className="heading flex flex-col gap-2 ">
 
                         <div className="flex items-center gap-2 text-site mb-3 uppercase text-sm justify-center md:justify-start">
                             <SignatureIcon width={20} height={20} />

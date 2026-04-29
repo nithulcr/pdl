@@ -116,7 +116,7 @@ const Services = () => {
             {data.map((choose, index) => (
               <SwiperSlide key={`${choose.id}-${index}`}>
                 <div
-                  className="group bg-[#101010] rounded-3xl p-7 sm:p-9  relative h-full min-h-[240px] lg:min-h-[330px] flex flex-col justify-between relative overflow-hidden"
+                  className="group bg-[#101010] rounded-2xl lg:rounded-3xl p-7 sm:p-9  relative h-full min-h-[240px] lg:min-h-[330px] flex flex-col justify-between relative overflow-hidden"
                 >
                   <div className="absolute w-full h-full left-0 top-0 service-card-overlay lg:opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <Image src={choose.img || "/service1.png"} alt="service" width={400} height={400} className="object-cover w-full h-full" />
