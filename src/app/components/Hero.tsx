@@ -12,22 +12,43 @@ import Image from "next/image";
 
 const slidesContent = [
   {
+    imageSrc: "/it-banner.jpg",
+    heading: "15+ Years of Excellence in IT, Digital Growth",
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    contactLink: "#",
+  },
+  {
+    imageSrc: "/ai.jpg",
+    heading: "Lead Generation Meta and Google Using Ai & Automation.",
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    contactLink: "#",
+  },
+  {
+    imageSrc: "/real-estate-bg.jpg",
+    heading: "Technology Marketing  Real Estate One Growth Ecosystem.",
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    contactLink: "#",
+  },
+  {
     imageSrc: "/hero1.png",
-    heading: "Binghatti, Redefining Real Estate Design",
+    heading: "Authorized Channel Partner Binghatti Developers",
     description1:
       "Binghatti creates iconic hyper-properties through innovative design.",
     contactLink: "#",
   },
   {
     imageSrc: "/hero2.png",
-    heading: "Danube Properties,  Multi-Million Dollar Group",
+    heading: "Authorized Channel Partner Danube Properties",
     description1:
       "The Group runs award-winning brands including Danube Building Materials, Danube Home, and Alucopanel.",
     contactLink: "#",
   },
   {
     imageSrc: "/hero3.png",
-    heading: "Sobha Realty, <br/> Building Excellence",
+    heading: "Authorized Channel Partner Sobha Realty",
     description1:
       "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
     contactLink: "#",
@@ -122,15 +143,15 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="relative z-10 max-w-[1360px] min-h-screen mx-auto px-6 py-30 lg:py-40 h-full flex flex-col justify-center text-left"
+              className="relative z-10 max-w-[1360px] min-h-screen mx-auto px-6 py-30 lg:py-20 h-full flex flex-col items-end justify-end text-right"
             >
               {slide.heading && (
                 <h1
-                  className="text-5xl md:text-[70px] font-bold mb-2 head-font max-w-[700px]"
+                  className="text-5xl md:text-[60px] font-semibold mb-2 head-font max-w-[600px]"
                   dangerouslySetInnerHTML={{ __html: slide.heading }}
                 />
               )}
-              {slide.description1 && (
+              {/* {slide.description1 && (
                 <div className="my-4 lg:my-2 max-w-[540px]">
                   <p className="text-lg md:text-xl my-2 font-light2 max-w-lg">
                     {slide.description1}
@@ -145,10 +166,10 @@ const Hero = () => {
                     className="w-fit transparent-btn"
                   />
                 </div>
-              )}
+              )} */}
 
-              {/* Bottom progress-style pagination lines */}
-              <div className="absolute right-8 xl:right-0 bottom-[20px] lg:bottom-[90px] flex gap-3 z-20">
+             
+              {/* <div className="absolute right-8 xl:right-0 bottom-[20px] lg:bottom-[90px] flex gap-3 z-20">
                 {slidesContent.map((_, i) => {
                   const isActive = i === activeIndex;
                   return (
@@ -167,7 +188,7 @@ const Hero = () => {
                     />
                   );
                 })}
-              </div>
+              </div> */}
             </motion.div>
           </SwiperSlide>
         ))}

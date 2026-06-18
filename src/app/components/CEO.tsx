@@ -13,11 +13,11 @@ export default function CEO() {
         <div className="relative flex justify-center  lg:flex h-full">
 
           <Image
-            src="/ceo.png"
+            src="/raju.png"
             alt="CEO"
             width={700}
             height={700}
-            className="object-cover f-full  mx-auto max-w-[700px] w-full"
+            className="object-cover f-full  mx-auto max-w-[550px] w-full"
           />
 
         </div>
