@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import AnimatedButton from "./AnimatedButton";
 
@@ -88,40 +88,38 @@ const Hero = () => {
           </div>
         </div>
         <div className="max-w-[380px] ml-auto flex flex-col justify-end gap-4 overflow-hidden">
-          <AnimatePresence mode="wait">
+          <div className="overflow-hidden">
             <motion.div
-              key={activeIndex}
-              initial={{ opacity: 0, x: 80 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -80 }}
+              animate={{ x: `-${activeIndex * 100}%` }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="flex flex-col  bg-[#012e31]  p-2 rounded-xl"
+              className="flex items-end "
             >
-              {/* Slide Image */}
-              <div className="mb-2">
-                <Image
-                  src={slidesContent[activeIndex].imageSrc}
-                  width={380}
-                  height={380}
-                  alt={slidesContent[activeIndex].heading}
-                  className="object-cover rounded-xl w-[380px] h-[180px]"
-                />
-              </div>
-
-              {/* <div className="text-3xl md:text-5xl font-semibold mb-2">
-              {slidesContent[activeIndex].heading}
-            </div> */}
-              <div className="my-1 p-2">
-                <h2 className="text-xl md:text-2xl leading-tight">
-                  {slidesContent[activeIndex].heading}
-                </h2>
-                <p className="leading-tight font-light mt-2">
-                  {slidesContent[activeIndex].description}
-                </p>
-              </div>
-
+              {slidesContent.map((slide, i) => (
+                <div key={i} className="w-full flex-shrink-0">
+                  <div className="flex flex-col bg-[#012e31] p-2 rounded-xl">
+                    {/* Slide Image */}
+                    <div className="mb-2">
+                      <Image
+                        src={slide.imageSrc}
+                        width={380}
+                        height={380}
+                        alt={slide.heading}
+                        className="object-cover rounded-xl w-[380px] h-[180px]"
+                      />
+                    </div>
+                    <div className="my-1 p-2">
+                      <h2 className="text-xl md:text-2xl leading-tight">
+                        {slide.heading}
+                      </h2>
+                      <p className="leading-tight font-light mt-2">
+                        {slide.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </motion.div>
-          </AnimatePresence>
+          </div>
           <div className="flex gap-3  ml-auto">
             {slidesContent.map((_, i) => (
               <button
