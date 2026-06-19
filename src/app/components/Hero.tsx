@@ -34,25 +34,12 @@ const slidesContent = [
   },
   {
     imageSrc: "/hero1.png",
-    heading: "Authorized Channel Partner Binghatti Developers",
+    heading: "Authorized Channel Partner",
     description1:
-      "Binghatti creates iconic hyper-properties through innovative design.",
+      "Binghatti Developers | Danube Properties | Sobha Realty",
     contactLink: "#",
   },
-  {
-    imageSrc: "/hero2.png",
-    heading: "Authorized Channel Partner Danube Properties",
-    description1:
-      "The Group runs award-winning brands including Danube Building Materials, Danube Home, and Alucopanel.",
-    contactLink: "#",
-  },
-  {
-    imageSrc: "/hero3.png",
-    heading: "Authorized Channel Partner Sobha Realty",
-    description1:
-      "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
-    contactLink: "#",
-  },
+
   {
     videoSrc: "/video.mp4",
     heading: "",
@@ -151,14 +138,14 @@ const Hero = () => {
                   dangerouslySetInnerHTML={{ __html: slide.heading }}
                 />
               )}
-              {/* {slide.description1 && (
+              {slide.description1 && (
                 <div className="my-4 lg:my-2 max-w-[540px]">
                   <p className="text-lg md:text-xl my-2 font-light2 max-w-lg">
                     {slide.description1}
                   </p>
                 </div>
               )}
-              {slide.contactLink && (
+              {/* {slide.contactLink && (
                 <div className="flex flex-wrap gap-4 mt-1 max-w-[540px]">
                   <AnimatedButton
                     href={slide.contactLink}
@@ -166,10 +153,10 @@ const Hero = () => {
                     className="w-fit transparent-btn"
                   />
                 </div>
-              )} */}
+              )}  */}
 
              
-              {/* <div className="absolute right-8 xl:right-0 bottom-[20px] lg:bottom-[90px] flex gap-3 z-20">
+              <div className="absolute right-8 xl:right-0 bottom-[20px] lg:bottom-[90px] flex gap-3 z-20">
                 {slidesContent.map((_, i) => {
                   const isActive = i === activeIndex;
                   return (
@@ -188,7 +175,7 @@ const Hero = () => {
                     />
                   );
                 })}
-              </div> */}
+              </div>
             </motion.div>
           </SwiperSlide>
         ))}

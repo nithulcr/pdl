@@ -164,8 +164,8 @@ export default function Header() {
                 <div className="max-w-[1360px]  mx-auto flex items-center justify-between md:px-6 px-3 h-[80px] main-header z-10 relative">
                     <div className="text-2xl font-bold h-full align-content-center flex">
                         <Link href="/" className="items-center flex">
-                            <img src="/logo-white.png" alt="Logo" width={280} height={50} className="w-[180px] md:w-[280px] logo logo-white" />
-                            <img src="/logo.png" alt="Logo" width={280} height={50} className="w-[180px] md:w-[280px] logo logo-black" />
+                            <img src="/logo-white.png" alt="Logo" width={270} height={50} className="w-[180px] md:w-[270px] logo logo-white" />
+                            <img src="/logo.png" alt="Logo" width={270} height={50} className="w-[180px] md:w-[270px] logo logo-black" />
 
                         </Link>
                     </div>
