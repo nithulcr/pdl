@@ -77,7 +77,7 @@ const Hero = () => {
           >
             Digital Growth & Business Transformation
           </h1>
-          <p className="text-lg md:text-xl leading-tight font-light max-w-[380px] mt-3">At Host on PDL, we deliver cutting-edge technology solutions tailored to your unique business needs.</p>
+          <p className="text-lg md:text-xl leading-tight font-light max-w-[500px] mt-3">At Host on PDL, we deliver cutting-edge technology solutions tailored to your unique business needs.</p>
           <div className="flex flex-wrap gap-4 mt-5 max-w-[540px]">
             <AnimatedButton
               href=""
