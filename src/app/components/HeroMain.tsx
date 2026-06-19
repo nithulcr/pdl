@@ -47,7 +47,7 @@ const slidesContent = [
   },
 ];
 
-const HeroCopy = () => {
+const HeroMain = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const swiperRef = useRef<SwiperType | null>(null);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
@@ -182,4 +182,4 @@ const HeroCopy = () => {
   );
 };
 
-export default HeroCopy;
+export default HeroMain;

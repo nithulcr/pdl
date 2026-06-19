@@ -7,25 +7,41 @@ import AnimatedButton from "./AnimatedButton";
 
 const slidesContent = [
   {
-    imageSrc: "/web-application.png",
-    heading: "Digital Solutions",
-    description: "Web, API, AI & Automation",
+    imageSrc: "/it-banner.png",
+    heading: "10+ Years Experience With a Team of Experts",
+    description: "380 + Clients Websites Delivered India, USA, Canada and UK. ",
   },
   {
-    imageSrc: "/marketing.png",
-    heading: "10 + Years of Excellence",
-    description: "500+ Clients Managed Globally",
+    imageSrc: "/it-banner.png",
+    heading: "Website Development | API Integration | Meta Lead Management",
+    description: "Using Latest Technology and Tools.",
   },
   {
     imageSrc: "/business-centre.png",
-    heading: "Work Closely with Leading",
-    description: "Developers & Channel Partners Globally",
+    heading: "Driving High-Quality Investor & Buyer Leads Through",
+    description: "Meta Ads | Google Ads | AI Automation",
   },
   {
     imageSrc: "/trusted-partners.jpg",
-    heading: "Authorized Channel Partner",
-    description: "Binghatti Developers | Danube Properties | Sobha Realty",
+    heading: "AI- Powered Automation Tools",
+    description: "From Lead Generation to Sales Conversion with",
   },
+  {
+    imageSrc: "/trusted-partners.jpg",
+    heading: "Partner with UAE's Leading Builders & Developers",
+    description: "6 Plus Years of Excellence in Real estate Dubai & PAN India Market",
+  },
+  {
+    imageSrc: "/trusted-partners.jpg",
+    heading: "Helping Developers and Chanel Partners ",
+    description: "Scale Revenue with Smarter Digital Ecosystems.",
+  },
+  {
+    imageSrc: "/banners/hero2.webp",
+    heading: "Specialists in Real Estate Lead Generation for",
+    description: "Dubai | Abu Dhabi | Ras Al Khaimah Off-Plan Projects",
+  },
+ 
 ];
 
 const Hero = () => {
@@ -34,7 +50,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % slidesContent.length);
-    }, 5000);
+    }, 3800);
     return () => clearInterval(interval);
   }, []);
 
@@ -43,7 +59,7 @@ const Hero = () => {
       {/* Static Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/it-banner.png"
+          src="/bg2.jpg"
           fill
           alt="background"
           className="object-cover"
@@ -53,7 +69,7 @@ const Hero = () => {
       </div>
 
       {/* Content Slider */}
-      <div className="relative z-10 max-w-[1360px] min-h-screen mx-auto w-full px-6  py-15 h-full flex flex-col md:grid grid-cols-2 justify-between  text-white">
+      <div className="relative z-10 max-w-[1360px] min-h-screen mx-auto w-full px-6  pt-15 pb-5 h-full flex flex-col md:grid grid-cols-2 justify-between  text-white">
 
         <div className="flex flex-col  justify-center">
           <h1
@@ -61,7 +77,7 @@ const Hero = () => {
           >
             Digital Growth & Business Transformation
           </h1>
-          <p className="text-lg md:text-xl leading-tight font-light max-w-[500px] mt-3">At Host on PDL, we deliver cutting-edge technology solutions tailored to your unique business needs.</p>
+          <p className="text-lg md:text-xl leading-tight font-light max-w-[380px] mt-3">At Host on PDL, we deliver cutting-edge technology solutions tailored to your unique business needs.</p>
           <div className="flex flex-wrap gap-4 mt-5 max-w-[540px]">
             <AnimatedButton
               href=""
@@ -71,7 +87,7 @@ const Hero = () => {
 
           </div>
         </div>
-        <div className="max-w-[280px] ml-auto text-right flex flex-col justify-end gap-4 overflow-hidden">
+        <div className="max-w-[380px] ml-auto flex flex-col justify-end gap-4 overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
@@ -79,24 +95,27 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -80 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="flex flex-col items-end"
+              className="flex flex-col  bg-white text-black p-2 rounded-xl"
             >
               {/* Slide Image */}
               <div className="mb-2">
                 <Image
                   src={slidesContent[activeIndex].imageSrc}
-                  width={280}
-                  height={280}
+                  width={380}
+                  height={380}
                   alt={slidesContent[activeIndex].heading}
-                  className="object-cover rounded-xl w-[280px] h-[200px]"
+                  className="object-cover rounded-xl w-[380px] h-[180px]"
                 />
               </div>
 
               {/* <div className="text-3xl md:text-5xl font-semibold mb-2">
               {slidesContent[activeIndex].heading}
             </div> */}
-              <div className="my-1">
-                <p className="text-lg md:text-xl leading-tight font-light">
+              <div className="my-1 p-2">
+                <h2 className="text-xl md:text-2xl leading-tight">
+                  {slidesContent[activeIndex].heading}
+                </h2>
+                <p className="leading-tight font-light mt-2">
                   {slidesContent[activeIndex].description}
                 </p>
               </div>
@@ -108,7 +127,7 @@ const Hero = () => {
               <button
                 key={i}
                 onClick={() => setActiveIndex(i)}
-                className={`w-[30px] lg:w-[50px] h-[2px] cursor-pointer transition-colors ${i === activeIndex ? "bg-white" : "bg-white/25"
+                className={`w-[30px]  h-[2px] cursor-pointer transition-colors ${i === activeIndex ? "bg-white" : "bg-white/25"
                   }`}
                 aria-label={`Go to slide ${i + 1}`}
               />
