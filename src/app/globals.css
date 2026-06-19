@@ -237,8 +237,16 @@ height:100%;
 }
 
 
+.second-header{
 
+  background-color: #0000003c;
+  backdrop-filter: blur(30px);
+}
+.bg-nav-cover .second-header{
 
+  background-color: transparent;
+  backdrop-filter: none;
+}
 .bg-nav .bg-header-cover{
 
   background-color: #ffffff;
