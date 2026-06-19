@@ -43,7 +43,7 @@ const Hero = () => {
       {/* Static Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/bg.webp"
+          src="/it-banner.png"
           fill
           alt="background"
           className="object-cover"
@@ -71,24 +71,24 @@ const Hero = () => {
 
           </div>
         </div>
-        <div className="max-w-[300px] ml-auto text-right flex flex-col justify-end gap-4 ">
+        <div className="max-w-[280px] ml-auto text-right flex flex-col justify-end gap-4 overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5 }}
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -80 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
               className="flex flex-col items-end"
             >
               {/* Slide Image */}
               <div className="mb-2">
                 <Image
                   src={slidesContent[activeIndex].imageSrc}
-                  width={300}
-                  height={300}
+                  width={280}
+                  height={280}
                   alt={slidesContent[activeIndex].heading}
-                  className="object-cover rounded-xl w-[300px] h-[200px]"
+                  className="object-cover rounded-xl w-[280px] h-[200px]"
                 />
               </div>
 

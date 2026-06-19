@@ -182,4 +182,4 @@ const HeroCopy = () => {
   );
 };
 
-export default Hero;
+export default HeroCopy;
