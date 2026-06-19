@@ -95,7 +95,7 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -80 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="flex flex-col  bg-white text-black p-2 rounded-xl"
+              className="flex flex-col  bg-[#012e31]  p-2 rounded-xl"
             >
               {/* Slide Image */}
               <div className="mb-2">
