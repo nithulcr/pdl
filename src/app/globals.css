@@ -56,23 +56,23 @@ h1{
 .others{
   background-color: white;
 }
-.logo-black{
+.logo-white{
   display: none;
 }
 .bg-nav-cover{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.index-page  .logo-white{
+  display: none;
+}
 .index-page .bg-nav-cover .logo-white{
+  display:block;
+}
+.index-page .bg-nav-cover .logo-black{
   display: none;
 }
 
-.index-page .bg-nav-cover .logo-black{
-  display: none;
-}
-.index-page .bg-nav-cover .logo-black{
-  display: block;
-}
-.header-menu-open .logo-black{
+.header-menu-open .bg-nav-cover .logo-black{
   display: none;
 }
 .header-menu-open .logo-white{
@@ -239,22 +239,17 @@ height:100%;
 
 .second-header{
 
-  background-color: #0000003c;
-  backdrop-filter: blur(30px);
+  background-color: #fff;
 }
-.bg-nav-cover .second-header{
 
-  background-color: transparent;
-  backdrop-filter: none;
-}
 .bg-nav .bg-header-cover{
 
-  background-color: #ffffff;
+  background-color: #000000;
   height: 100%;
   position: absolute;
   inset: -100% 0% 0%;
   transition: .5s;
-  border-bottom: 1px solid var(--background2)
+  /* border-bottom: 1px solid var(--background2) */
 }
 
 .bg-nav-cover .bg-header-cover{
@@ -290,11 +285,9 @@ height:100%;
   font-size: 16px;
   font-weight: 400;
 }
-.index-page .menu-item{
-  color: white;
-}
+
 .bg-nav-cover  .menu-item{
-  color:black;
+  color:white;
 }
 .header-menu-open  .menu-item{
   color:black;
@@ -307,25 +300,21 @@ height:100%;
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: var(--siteColor);
+  background-color: var(--siteColor3);
   transition: .3s;
 }
 
 .index-page  .ph-icon svg path{
-  fill:white!important;
+  fill:rgb(0, 0, 0)!important;
 }
 .index-page .bg-nav-cover .ph-icon svg path{
-  fill:black!important;
+  fill:rgb(255, 255, 255)!important;
 }
 .menu-active.menu-item::before {
   width: 100%;
 }
-.index-page .menu-active.menu-item:before{
-  display: none;
-}
-.index-page .bg-nav-cover .menu-active.menu-item:before{
-  display: block;
-}
+
+
 .menu-item:hover::before {
   width: 100%;
   opacity: .8;
@@ -394,6 +383,21 @@ height:100%;
     background-color: var(--siteColor);
      /* border-radius: 36px; */
     height: auto;
+
+}
+.index-page .bg-nav-cover .button{
+  background-color: var(--background);
+
+
+}
+.index-page .bg-nav-cover .button *{
+
+  color: var(--siteColor);
+
+}
+.index-page .bg-nav-cover .button .btn-svg{
+
+  filter: invert(1);
 
 }
 .button.no-icon{
