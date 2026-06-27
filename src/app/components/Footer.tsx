@@ -232,7 +232,8 @@ export default function Footer() {
       <div className="border-t border-dashed border-gray-300  flex justify-between flex-wrap py-8 gap-3">
         <div className="text-xs md:text-sm">Host on PDL - Copyright 2026. All rights reserved.</div>
         <div className=" text-xs md:text-sm flex items-center gap-2 md:gap-3">
-         
+          <Link href="/terms_and_conditions">Terms and Conditions</Link>
+         |
           <Link href="/Legal_Desclaimer">Legal Desclaimer</Link>
           |
           <Link href="/Privacy_Policy">Privacy Policy</Link>
