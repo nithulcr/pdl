@@ -86,7 +86,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section className="py-14 lg:py-24  relative top-shape overflow-hidden min-h-[80vh] flex items-center justify-start">
+      <section className="py-14 lg:py-24  relative top-shape overflow-hidden min-h-[80vh] flex items-center justify-start bg-[var(--background2)]">
         <Image
           src="/building.png"
           alt="building"
@@ -125,7 +125,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[var(--background2)] py-14 lg:py-24  relative top-shape overflow-hidden">
+      <section className="py-14 lg:py-24  relative top-shape overflow-hidden">
         <div className="max-w-[1360px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-18 items-center">
             <div className="relative flex justify-center  lg:flex h-full">
@@ -241,6 +241,8 @@ export default function Home() {
           </motion.div> */}
         </div>
       </section>
+      <CEO />
+
       <section className="py-14 lg:py-24  relative">
         <div className="max-w-[1360px] mx-auto px-6">
           <motion.div
@@ -269,7 +271,7 @@ export default function Home() {
 
                 key={feature.id}
 
-                className="group min-w-[300px] md:min-w-auto  p-5 lg:p-7   bg-[var(--background2)] relative transition-all duration-500 relative top-0 hover:top-[-5px]"
+                className="group min-w-[300px] md:min-w-auto  p-5 lg:p-7  bg-[var(--background2)]  relative transition-all duration-500 relative top-0 hover:top-[-5px]"
               >
 
                 <span className="block">
@@ -296,7 +298,6 @@ export default function Home() {
         </div>
       </section >
 
-      <CEO />
       <Team />
 
       <Footer />

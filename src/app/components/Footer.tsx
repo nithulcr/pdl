@@ -74,23 +74,23 @@ export default function Footer() {
 
          
                
-                <Link href="/AboutUs" className="flex gap-4 text-[15px]">
+                <Link href="/" className="flex gap-4 text-[15px]">
                   
                   About Us
                 </Link>
-                <Link href="/Projects" className="flex gap-4 text-[15px]">
+                <Link href="/" className="flex gap-4 text-[15px]">
                  
                   Projects
 
                 </Link>
-                <Link href="/Services" className="flex gap-4 text-[15px]">
+                <Link href="/" className="flex gap-4 text-[15px]">
                  
 
                   Services
                 </Link>
                 
                 
-                <Link href="/ContactUs" className="flex gap-4 text-[15px]">
+                <Link href="/" className="flex gap-4 text-[15px]">
                  
                 Contact Us
 

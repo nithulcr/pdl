@@ -13,7 +13,7 @@ export default function CEO() {
         <div className="relative flex justify-center  lg:flex h-full">
 
           <Image
-            src="/raju.png"
+            src="/ceo-pdl.png"
             alt="CEO"
             width={700}
             height={700}

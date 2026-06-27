@@ -12,19 +12,19 @@ const caseStudies = [
         title: "Sobha Reality Sobha Elwood",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/apartments.png",
-        video: "/video.mp4",
+        video: "/video2.mp4",
     },
     {
         title: "Danube Properties - BAYZ 102 Marina",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/townhouse.png",
-        video: "/video.mp4",
+        video: "/video2.mp4",
     },
     {
         title: "Fairmont Residence - Ras Al Khaima",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image: "/villa.png",
-        video: "/video.mp4",
+        video: "/video2.mp4",
     },
 
 

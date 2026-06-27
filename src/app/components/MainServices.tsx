@@ -118,7 +118,7 @@ const Services = () => {
                     transition={{ duration: 0.5 }}
                     className="heading flex items-center justify-between  font-light text-white text-left mb-14"
                 >
-                    <div className=" max-w-[460px]">
+                    <div className=" max-w-[600px]">
                         <div className="flex gap-2 mb-3 uppercase  text-sm md:justify-start white-icon">
                             <SignatureIcon width={20} height={20} />
                             Our Services
@@ -127,7 +127,7 @@ const Services = () => {
                             ref={fadeRef}
                             className="mt-3 text-left fade-up-stagger text-3xl lg:text-[46px] font-light mb-1 leading-tight"
                         >
-                            We Create, Launch, and Grow Your Brand
+                            We Create, Launch, and Automate -  Grow Your Brand
                         </h2>
                     </div>
                     <AnimatedButton href="" label="Learn More" className="w-fit transparent-btn hidden md:block mt-3" />

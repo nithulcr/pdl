@@ -66,16 +66,17 @@ const Services = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }} className="heading flex flex-col items-center  text-white max-w-[600px] mx-auto mb-14 mx-auto px-6">
+          transition={{ duration: 0.5 }} className="heading flex flex-col items-center  text-white max-w-[700px] mx-auto mb-14 mx-auto px-6">
           <div className="flex items-center gap-2 mb-3 uppercase text-sm white-icon">
            <SignatureIcon width={20} height={20} />
 
-           Dubai Real Estate.
+           Dubai, Abu Dhabi, and Ras Al Khaimah
           </div>
           <h2 ref={fadeRef} className="text-center  fade-up-stagger text-3xl lg:text-[46px] font-medium mb-1 leading-tight  ">
            Invest in Dubai Real Estate.
         Secure Your Future.
           </h2>
+          <p className="text-center text-white/60 font-light">HOST ON PDL.COM, we are proud to be an Official Channel Partner of some of Dubai's most trusted and renowned real estate developers, including Sobha Realty, Danube Properties, and Binghatti Developers.</p>
           
         </motion.div>
         <div className="service-slide">

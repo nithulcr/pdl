@@ -18,7 +18,7 @@ export default function Terms() {
 
       <Header />
       <section className="py-14 lg:py-24 bg-[var(--background2)]  relative  overflow-hidden">
-        <div className="max-w-[1000px] mx-auto px-3 lg:px-6 ">
+        <div className="max-w-[1000px] mx-auto px-3 lg:px-6 pt-10">
           <h1 className="text-3xl lg:text-5xl font-semibold mb-6"> Legal Desclaimer </h1>
           <p className="text-sm text-gray-500 mb-8">
             Last updated: 29 March 2026

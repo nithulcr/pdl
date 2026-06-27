@@ -56,7 +56,7 @@ h1{
 .others{
   background-color: white;
 }
-.logo-black{
+.logo-white{
   display: none;
 }
 .bg-nav-cover{
@@ -66,9 +66,16 @@ h1{
   display: none;
 }
 
+.index-page  .logo-black{
+  display: none;
+}
+.index-page  .logo-white{
+  display: block;
+}
 .index-page .bg-nav-cover .logo-black{
   display: none;
 }
+
 .index-page .bg-nav-cover .logo-black{
   display: block;
 }

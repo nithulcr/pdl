@@ -12,11 +12,11 @@ import PhoneIcon from "./PhoneIcon";
 
 const navItems = [
     { href: "/", label: "Home" },
-    { href: "/AboutUs", label: "About us" },
+    { href: "/", label: "About us" },
 
 
     {
-        label: "Properties",
+        label: "Projects",
         href: "#",
         submenu: [
             { href: "", label: "Binghati" },
@@ -26,9 +26,9 @@ const navItems = [
 
         ],
     },
-    { href: "#", label: "IT & Digital Services" },
-    { href: "#", label: "Blogs" },
-    { href: "/ContactUs", label: "Contact" },
+    { href: "/", label: "IT & Digital Services" },
+    { href: "/", label: "Blogs" },
+    { href: "/", label: "Contact" },
 ];
 
 export default function Header() {

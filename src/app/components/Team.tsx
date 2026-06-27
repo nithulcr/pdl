@@ -36,7 +36,7 @@ const Team = () => {
     <section
       ref={containerRef}
       id="Team"
-      className="team section overflow-hidden py-14 lg:py-24"
+      className="team bg-[var(--background2)]  section overflow-hidden py-14 lg:py-24"
     >
       <div className="max-w-[1400px] mx-auto px-4 md:px-6">
         {/* Heading + Arrows */}

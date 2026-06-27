@@ -64,13 +64,13 @@ export default function WhoWeAre() {
             >
               <span className="relative block">
                 <span className="filling-line-fill">
-HOST ON PDL is a Kannur-based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
+HOST ON PDL is a India, Kerala based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
                 </span>
                 <span
                   className="filling-line-base"
                   aria-hidden="true"
                 >
-HOST ON PDL is a Kannur-based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
+HOST ON PDL is a India, Kerala based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
                 </span>
               </span>
             </h2>
