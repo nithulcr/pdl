@@ -62,7 +62,7 @@ export default function terms_and_conditions() {
 
             <h2 className="text-xl font-semibold mt-8 mb-3">4. Limitation of Liability</h2>
             <p className="mb-4">
-              HOST ON PDL provides its services "as is" and "as available." We do not guarantee that our digital services or real estate information will be entirely error-free or uninterrupted. We are not liable for any direct or indirect damages resulting from your use of this site.
+              HOST ON PDL provides its services &quot;as is&quot; and &quot;as available.&quot; We do not guarantee that our digital services or real estate information will be entirely error-free or uninterrupted. We are not liable for any direct or indirect damages resulting from your use of this site.
             </p>
 
             <h2 className="text-xl font-semibold mt-8 mb-3">5. Third-Party Links</h2>
