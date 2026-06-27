@@ -206,7 +206,7 @@ export default function Testimonials() {
                         </Swiper>
                     </div>
                 </div>
-                 <AnimatedButton type="submit"
+                 <AnimatedButton href='https://www.google.com/search?sca_esv=2965c6137329154f&sxsrf=APpeQnuj_LMZhfiys1usQJBgqoxilsMNVA:1782539410517&si=APenkKn5T4YN59srr511wD6k6Pufj9DEzRUvB1XJSwUeeT5aflaznCQZcExKXrolu0jaeHCDL7Y5yh6vgaTm3KJQfz00li0tPkKVVS3AQ41M765fNyZ3wCIh-wJD84ugAWiv0HvH8Z_z&q=Host+On+Pdl.Com+Reviews&sa=X&ved=2ahUKEwjzlfLi3KaVAxXV3TgGHZJeMaQQ0bkNegQILhAH&biw=1536&bih=730&dpr=1.25' type="submit"
                               label="Write a review" className="w-fit  mt-12 md:mt-16" />
 
 

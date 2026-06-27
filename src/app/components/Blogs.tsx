@@ -147,7 +147,7 @@ const BlogsMain = () => {
 
 
                     </div>
-                    <AnimatedButton href="{choose.link}" label="Learn More" className="w-fit transparent-btn2 transparent-btn3 mt-3" />
+                    <AnimatedButton href="" label="Learn More" className="w-fit transparent-btn2 transparent-btn3 mt-3" />
                   </div>
                 </div>
               </SwiperSlide>

@@ -54,7 +54,7 @@ export default function CEO() {
           </p>
           
 
-          <AnimatedButton label="Message on Whatsapp" className="w-fit text-white lg:mt-2 whatsapp-btn" />
+          <AnimatedButton href="https://wa.me/+919846272623" label="Message on Whatsapp" className="w-fit text-white lg:mt-2 whatsapp-btn" />
 
 
         </div>
