@@ -76,7 +76,7 @@ const Services = () => {
            Invest in Dubai Real Estate.
         Secure Your Future.
           </h2>
-          <p className="text-center text-white/60 font-light">HOST ON PDL.COM, we are proud to be an Official Channel Partner of some of Dubai's most trusted and renowned real estate developers, including Sobha Realty, Danube Properties, and Binghatti Developers.</p>
+          <p className="text-center text-white/60 font-light">HOST ON PDL.COM, we are proud to be an Official Channel Partner of some of Dubai&apos;s most trusted and renowned real estate developers, including Sobha Realty, Danube Properties, and Binghatti Developers.</p>
           
         </motion.div>
         <div className="service-slide">
