@@ -72,17 +72,14 @@ h1{
 .index-page  .logo-white{
   display: block;
 }
-.index-page .bg-nav-cover .logo-black{
-  display: none;
-}
 
 .index-page .bg-nav-cover .logo-black{
   display: block;
 }
-.header-menu-open .logo-black{
+.header-menu-open .logo-white{
   display: none;
 }
-.header-menu-open .logo-white{
+.header-menu-open .logo-black{
   display: block;
 }
 .filling-line-fill {
@@ -367,9 +364,11 @@ height:100%;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000023;
+  /* background: #00000023; */
+  background: radial-gradient(ellipse at 30% 20%, #16213a 0%, #0B1220 55%, #060a14 100%);
   background-size: cover;
   z-index: 1;
+  opacity: .85;
 
 }
 

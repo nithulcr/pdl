@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 import Header from "./Header";
-import Hero from "./Hero";
+import HeroMain from "./HeroMain";
 import WhoWeAre from "./WhoWeAre";
 // import ProjectsScroller from "./ProjectsScroller";
 import Insights from "./Insights";
@@ -35,7 +35,9 @@ export default function HomePageClient() {
       {showContent && (
         <>
           <Header />
-          <Hero />
+
+          <HeroMain />
+
           <WhoWeAre />
           {/* <ProjectsScroller /> */}
           <Insights />
