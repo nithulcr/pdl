@@ -110,7 +110,7 @@ export default function Insights() {
                         <div className="flex items-center gap-2   uppercase text-sm md:text-md   relative">
                             <span className="text-3xl md:text-5xl font-black gold-text">7+</span>
                         </div>
-                        <h5 className="text-sm">Years navigating both software delivery and Dubai's market cycles</h5>
+                        <h5 className="text-sm">Years navigating both software delivery and Dubai&apos;s market cycles</h5>
 
                     </div>
 
