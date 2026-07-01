@@ -158,7 +158,7 @@ const HeroMain = () => {
                   </p>
 
                 )}
-                {slide.contactLink && (
+                {/* {slide.contactLink && (
                   <div className="flex flex-wrap gap-2 md:gap-4 mt-1 max-w-[540px]">
                     <AnimatedButton
                       href={slide.contactLink}
@@ -171,7 +171,7 @@ const HeroMain = () => {
                       className="w-fit"
                     />
                   </div>
-                )}
+                )} */}
 
 
                 <div className="absolute left-1/2 -translate-x-1/2 bottom-[20px] lg:bottom-[90px] flex gap-3 z-20 hidden">

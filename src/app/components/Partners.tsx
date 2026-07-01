@@ -39,7 +39,7 @@ const Partners = () => {
   return (
     <section className="py-8 pb-6 bg-[var(--foreground)] ">
       <div className="max-w-[1320px] mx-auto px-6 flex  flex-col items-start text-center gap-5 justify-between mb-4">
-        <h5 className="text-medium md:text-xl font-medium mx-auto gold-text">Our Official UAE Development Partners</h5>
+        <h5 className="text-medium md:text-xl font-medium mx-auto gold-text uppercase">Our Official UAE Development Partners</h5>
       </div>
       <div className="mx-auto  partners-container lg:hidden">
         
