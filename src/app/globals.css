@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -8,7 +9,9 @@
   /* --siteColor: #130d25; */
 
   --siteColor2: #211939;
-  --siteColor3: #007cc3;
+  /* --siteColor3: #007cc3; */
+  --siteColor3: #D4AF37;
+
 
 }
 @theme inline {
@@ -47,9 +50,21 @@ body {
 font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
+/* .head-font{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  letter-spacing: .4px;
+  font-weight: 100;
+} */
+.gold-text {
+    background: linear-gradient(100deg, #F4E2A3, #D4AF37 45%, #9c7a22 70%, #E9D192);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 h1{
    font-family: 'MonumentExtended';
 }
+
 .white-icon svg path{
   fill: white;
 }
@@ -368,7 +383,7 @@ height:100%;
   background: radial-gradient(ellipse at 30% 20%, #16213a 0%, #0B1220 55%, #060a14 100%);
   background-size: cover;
   z-index: 1;
-  opacity: .85;
+  opacity: .7;
 
 }
 
@@ -579,6 +594,11 @@ h1 span{
 .social-icon2:hover{
   margin-top: -4px;
 }
+@media (max-width: 1024px) {
+  .process-card-svg{
+ display: none;
+}
+}
 @media (max-width: 990px) {
 
   .process-slide .swiper{
@@ -590,15 +610,7 @@ h1 span{
 
 
 }
-@media (max-width: 768px) {
-  .process-card-svg{
-  right: auto;
-  left: 50%;
-  top:auto;
-  bottom: -36px;
-  transform: translateX(-50%) rotate(90deg);
-}
-}
+
 @media (max-width: 600px) {
 
 
@@ -608,7 +620,7 @@ h1 span{
 
 }
 .button {
-    padding: 6px 20px 6px 20px;
+    padding: 6px 14px 6px 14px;
 }
 .button-text{
   font-size: 14px;
@@ -617,4 +629,5 @@ h1 span{
 .megamenu-active-tab {
     background: var(--background);
 }
+
 }

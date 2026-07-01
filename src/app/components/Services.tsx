@@ -45,6 +45,16 @@ const ServicesDataEn = [
     description: "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
     link: "#",
   },
+  
+  {
+    id: "04",
+    img: '/hero3.png',
+
+    icon: '/sobha2.png',
+    title: <>Sobha Realty</>,
+    description: "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
+    link: "#",
+  },
  
 
 

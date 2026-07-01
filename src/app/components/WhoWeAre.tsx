@@ -55,22 +55,22 @@ export default function WhoWeAre() {
           <div className="heading flex flex-col items-center max-w-[900px] mx-auto mb-10">
             <div className="flex items-center gap-2 text-site  uppercase text-sm">
               <SignatureIcon width={20} height={20} />
-              Who We Are
+             About host on pdl
             </div>
 
             <h2
               ref={headingRef}
-              className="text-center text-3xl lg:text-[52px] font-light mt-6 leading-tight relative"
+              className="text-center text-3xl lg:text-[48px] font-light mt-6 leading-tight relative"
             >
               <span className="relative block">
                 <span className="filling-line-fill">
-HOST ON PDL is a India, Kerala based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
+Host On PDL began as a technology studio and grew into something rarer: a firm trusted equally by enterprise clients who need software that performs, and by investors who need a partner that understands the UAE property market from the inside.
                 </span>
                 <span
                   className="filling-line-base"
                   aria-hidden="true"
                 >
-HOST ON PDL is a India, Kerala based company connecting investors with high-potential real estate opportunities while also providing digital solutions like website development and lead generation.
+Host On PDL began as a technology studio and grew into something rarer: a firm trusted equally by enterprise clients who need software that performs, and by investors who need a partner that understands the UAE property market from the inside.
                 </span>
               </span>
             </h2>

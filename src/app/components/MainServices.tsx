@@ -28,7 +28,7 @@ const ServiceCard = ({
                         {title}
                     </h5>
                 </div>
-                <p className="text-lg duration-500  ease-in-out overflow-hidden pt-2 font-light md:text-right max-w-[500px] md:ml-auto">
+                <p className="text-lg duration-500  ease-in-out overflow-hidden pt-2 font-light md:text-right max-w-[400px] md:ml-auto">
                     {description}
                 </p>
             </div>
@@ -70,42 +70,55 @@ const Services = () => {
 
     // Card Data
     const serviceCards = [
-        {
-            number: "01",
-            title: "Domain | Server | SSL Certificate",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-        {
-            number: "02",
-
-            title: "Responsive Website Development",
-           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-        {
-            number: "03",
-
-            title: "Landing Page Development",
-          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-        {
-            number: "04",
-
-            title: "Lead Generation Campaigns",
-          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-        {
-            number: "05",
-
-            title: "Lead Automation Usign Ai",
-          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-        {
-            number: "06",
-
-            title: " Social Media Marketing",
-          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        },
-    ];
+  {
+    number: "01",
+    title: "Website Development",
+    description:
+      "Marketing sites, e-commerce and CMS-driven platforms built for speed and SEO.",
+  },
+  {
+    number: "02",
+    title: "Enterprise Software",
+    description:
+      "Custom internal tools and platforms tailored to complex business workflows.",
+  },
+  {
+    number: "03",
+    title: "Mobile Apps",
+    description:
+      "Native and cross-platform apps for iOS and Android, built for scale.",
+  },
+  {
+    number: "04",
+    title: "Cloud Solutions",
+    description:
+      "Architecture, migration and DevOps on modern cloud infrastructure.",
+  },
+  {
+    number: "05",
+    title: "AI Integration",
+    description:
+      "Practical AI features — automation, search, and intelligent workflows.",
+  },
+  {
+    number: "06",
+    title: "Business Automation",
+    description:
+      "Removing manual work through integrated, automated systems.",
+  },
+  {
+    number: "07",
+    title: "IT Consulting",
+    description:
+      "Strategic technology guidance from planning through execution.",
+  },
+  {
+    number: "08",
+    title: "Maintenance & Support",
+    description:
+      "Ongoing monitoring, updates and dependable technical support.",
+  },
+];
 
     return (
         <section ref={containerRef} id="services" className="bg-[var(--foreground)] text-white section overflow-hidden py-12 lg:py-24">
@@ -118,17 +131,18 @@ const Services = () => {
                     transition={{ duration: 0.5 }}
                     className="heading flex items-center justify-between  font-light text-white text-left mb-14"
                 >
-                    <div className=" max-w-[600px]">
+                    <div className=" max-w-[450px]">
                         <div className="flex gap-2 mb-3 uppercase  text-sm md:justify-start white-icon">
                             <SignatureIcon width={20} height={20} />
-                            Our Services
+                           What We Build
                         </div>
                         <h2
                             ref={fadeRef}
                             className="mt-3 text-left fade-up-stagger text-3xl lg:text-[46px] font-light mb-1 leading-tight"
                         >
-                            We Create, Launch, and Automate -  Grow Your Brand
+                           IT Services
                         </h2>
+                        <p>From a single landing page to full enterprise platforms — engineered, tested and supported by one team.</p>
                     </div>
                     <AnimatedButton href="" label="Learn More" className="w-fit transparent-btn hidden md:block mt-3" />
 

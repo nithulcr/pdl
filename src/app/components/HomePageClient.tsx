@@ -6,6 +6,8 @@ import Header from "./Header";
 import HeroMain from "./HeroMain";
 import WhoWeAre from "./WhoWeAre";
 // import ProjectsScroller from "./ProjectsScroller";
+import Partners from "./Partners";
+
 import Insights from "./Insights";
 import OurValues from "./OurValues";
 
@@ -35,33 +37,24 @@ export default function HomePageClient() {
       {showContent && (
         <>
           <Header />
-
           <HeroMain />
+          <Partners />
 
           <WhoWeAre />
+
           {/* <ProjectsScroller /> */}
           <Insights />
-          <OurValues />
-
-        
-          <Services />
-          <CaseStudy />
-          <CEO />
-          
-
-
-          <MainServices />
           <ThreeStepProcess />
 
+          <OurValues />
+          <MainServices />
+
+          {/* <Services /> */}
+          <CaseStudy />
+          <CEO />
 
           <Testimonials />
           <Blogs />
-
-
-
-
-
-
           <Footer />
         </>
       )}

@@ -21,7 +21,7 @@ type SlideContent = {
 const slidesContent: SlideContent[] = [
   {
     imageSrc: "/bg5.png",
-    heading: "Two worlds. One standard of excellence.",
+    heading: "Two worlds. <span class=\"gold-text\">One</span> standard of excellence.",
     description1:
       "Host On PDL builds enterprise-grade software and digital infrastructure — and stewards investment access into Dubai's most trusted developments. One company, two disciplines, a single promise of precision.",
     contactLink: "#",
@@ -139,15 +139,15 @@ const HeroMain = () => {
               transition={{ duration: 0.5 }}
               className="relative z-10 max-w-[1360px] mx-auto min-h-screen  px-6 py-20 lg:pt-34 lg:py-26 h-full flex flex-col justify-center"
             >
-              <div className="flex flex-col gap-5 max-w-[650px] font-[200]">
-                <div className="flex items-center gap-2   uppercase text-sm">
+              <div className="flex flex-col gap-5 max-w-[600px] font-[300]">
+                <div className="flex items-center gap-2   uppercase text-xs md:text-sm">
                   <SignatureIcon width={20} height={20} className="invert" />
                   IT Solutions & Official UAE Real Estate Partner
                 </div>
 
                 {slide.heading && (
                   <h1
-                    className="text-5xl md:text-[95px] font-semibold mb-2 head-font max-w-[600px]"
+                    className="text-[56px] leading-[60px] md:text-[95px] md:leading-[95px] font-semibold head-font max-w-[600px]"
                     dangerouslySetInnerHTML={{ __html: slide.heading }}
                   />
                 )}
@@ -159,7 +159,7 @@ const HeroMain = () => {
 
                 )}
                 {slide.contactLink && (
-                  <div className="flex flex-wrap gap-4 mt-1 max-w-[540px]">
+                  <div className="flex flex-wrap gap-2 md:gap-4 mt-1 max-w-[540px]">
                     <AnimatedButton
                       href={slide.contactLink}
                       label="Book a Consultation"

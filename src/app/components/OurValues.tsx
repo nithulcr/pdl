@@ -84,7 +84,7 @@ const Services = () => {
                     transition={{ duration: 0.5 }} className="heading flex flex-col max-w-[400px] text-left  mb-14">
 
 
-                    <div className="flex  gap-2 text-site mb-3 uppercase text-sm  md:justify-start">
+                    <div className="flex  gap-2 text-site mb-3 uppercase text-sm  justify-center md:justify-start">
                         <SignatureIcon width={20} height={20} />
 
                         Work Smarter. Achieve More
@@ -103,37 +103,32 @@ const Services = () => {
                         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10  w-full">
                             <div className="flex flex-col gap-10 ">
                                 <div className="services-rotate-right bg-[#26957d40] md:bg-[var(--background2)] hover:bg-[#26957d40] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">100+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
+                                    <h3 className="text-5xl md:text-7xl font-monument">100+</h3>
+                                    <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
                                         Happy 
 <br />
                                        Clients
                                     </p>
                                 </div>
                                 <div className="services-rotate-right bg-[#e5484d3b] md:bg-[var(--background2)] hover:bg-[#e5484d3b] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">7+</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[250px] ml-auto mt-10 lg:mt-20">
-                                       Years of Real 
-                                      Estate Experience
+                                    <h3 className="text-5xl md:text-7xl font-monument">8+</h3>
+                                    <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[300px] ml-auto mt-10 lg:mt-20">
+                                      Years in<br />Technology & Realty
                                     </p>
                                 </div>
                               
                             </div>
                             <div className="flex flex-col gap-10  md:mt-[-50]">
                                 <div className="services-rotate-left bg-[#6f8f1042] md:bg-[var(--background2)] hover:bg-[#6f8f1042] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">$1K</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-10 lg:mt-20">
-                                       Average savings per
-                                       
-                                        $100K for our buyers
+                                    <h3 className="text-5xl md:text-7xl font-monument">120+</h3>
+                                    <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-10 lg:mt-20">
+                                    Projects Delivered
                                     </p>
                                 </div>
                                 <div className="services-rotate-left bg-[#348bf142] md:bg-[var(--background2)] hover:bg-[#348bf142] relative rounded-2xl p-8 flex flex-col justify-between">
-                                    <h3 className="text-7xl font-monument">10</h3>
-                                    <p className="text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
-                                       Licensed Real
-                                        <br />
-                                        Estate Agents
+                                    <h3 className="text-5xl md:text-7xl font-monument">4</h3>
+                                    <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
+                                       Developer Partnerships
 
                                     </p>
                                 </div>

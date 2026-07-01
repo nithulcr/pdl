@@ -9,17 +9,22 @@ import SignatureIcon from "../components/SignatureIcon";
 
 const features = [
     {
-        icon: "/high-roi.png",
-        title: "Vision",
-        desc: "To be the single trusted bridge between technology ambition and real estate wealth in the UAE.",
+        icon: "/golden-visa.png",
+        title: "Golden Visa",
+        desc: "Explore eligibility for long-term residency options, including investor visa pathways linked to qualifying property investments in Dubai, subject to applicable regulations.",
     },
     {
-        icon: "/mission.png",
+        icon: "/high-roi.png",
 
-        title: "Mission",
-        desc: "Deliver enterprise-grade execution and transparent, developer-backed investment access.",
+        title: "High ROI Focus",
+        desc: "Tax-free rental yields and capital appreciation that outperform traditional European markets.",
     },
+    {
+        icon: "/safety.png",
 
+        title: "Regulatory Safety",
+        desc: "Benefit from the world's most transparent real estate framework, protected by DLD regulations.",
+    },
 ];
 
 
@@ -28,7 +33,7 @@ export default function Insights() {
     useStaggeredFadeUp(fadeRef as React.RefObject<HTMLElement>);
     return (
         <section className=" bg-[var(--background2)] py-14 lg:py-24 rounded-3xl relative top-shape overflow-hidden">
-            <div className="max-w-[1320px] mx-auto px-4 md:px-6 flex flex-col-reverse lg:grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            <div className="max-w-[1400px] mx-auto px-4 md:px-6 flex flex-col-reverse lg:grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
                 <div className="flex flex-col">
                     <motion.div
@@ -43,18 +48,17 @@ export default function Insights() {
 
                             About Host On PDL
                         </div>
-                        <div className=" mb-5">
-                            <h2 ref={fadeRef} className="fade-up-stagger  mb-5 text-3xl lg:text-[50px] max-w-[500px]  leading-none">
-                                Built on code.
+                        <div className=" mb-10">
+                            <h2 ref={fadeRef} className="fade-up-stagger  mb-3 text-3xl lg:text-[50px] max-w-[600px]  leading-none">
+                                Built on code.<br />
                                 Anchored in Dubai.
                             </h2>
-                            <p className="text-black/70 font-[300]   text-justify">
-                                {/* Host On PDL began as a technology studio and grew into something rarer: a firm trusted equally by enterprise clients who need software that performs, and by investors who need a partner that understands the UAE property market from the inside.
+                            <p className="text-black/60 font-light text-[15px] text-justify">
+                                Host On PDL began as a technology studio and grew into something rarer: a firm trusted equally by enterprise clients who need software that performs, and by investors who need a partner that understands the UAE property market from the inside.
                                 <br />
-                                <br /> */}
                                 Today we operate two disciplines under one standard — engineering teams shipping web, mobile and cloud products, and an advisory desk working directly with SOBHA Realty, Binghatti, Danube Properties and Al Hamra to place client capital into the right development, at the right stage.</p>
                         </div>
-                        <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="space-y-8">
                             {features.map((item, index) => (
                                 <div
                                     key={index}
@@ -75,10 +79,10 @@ export default function Insights() {
 
                                     {/* Content */}
                                     <div>
-                                        <h3 className="font-headline text-lg font-bold uppercase tracking-tighter">
+                                        <h3 className="font-headline text-lg font-bold mb-2 uppercase tracking-tighter">
                                             {item.title}
                                         </h3>
-                                        <p className="opacity-80 text-sm  leading-tight font-light">
+                                        <p className="opacity-80 text-sm md:text-[16px] leading-tight font-light">
                                             {item.desc}
                                         </p>
                                     </div>
@@ -97,21 +101,20 @@ export default function Insights() {
 
                     <div className="bg-img   overflow-hidden  ml-auto max-w-[94%] h-[94%] ">
                         <Image
-                            src="/insights.png"
+                            src="/trusted-partners.jpg"
                             alt="Insights"
                             width={1000}
                             height={1000}
-                            className="object-cover   w-full h-full"
+                            className="object-cover   w-full "
                         />
                     </div>
-                    <div className="bg-[var(--siteColor)] max-w-[300px] p-4 lg:p-7 absolute left-0 bottom-0 text-white space-y-2 md:space-y-3">
-                        
-                        
+                    <div className="bg-[var(--siteColor)] p-5 lg:p-8 absolute left-0 bottom-0 text-white space-y-2 md:space-y-3">
                         <div className="flex items-center gap-2   uppercase text-sm md:text-md   relative">
-                            <span className="text-3xl md:text-5xl font-black gold-text">7+</span>
+                            <span className="pulse-action"></span>
+                            <span className="pl-4">Live Pulse</span>
                         </div>
-                        <h5 className="text-sm">Years navigating both software delivery and Dubai's market cycles</h5>
-
+                        <h3 className="uppercase text-md  md:text-lg font-semibold">Avg. Rental Yield</h3>
+                        <h3 className="text-3xl md:text-5xl font-black">8.2% <span className="opacity-60 text-sm">NET P.A</span></h3>
                     </div>
 
 

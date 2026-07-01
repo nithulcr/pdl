@@ -9,20 +9,26 @@ import AnimatedButton from "../components/AnimatedButton";
 
 const caseStudies = [
     {
-        title: "Sobha Reality Sobha Elwood",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        title: "SOBHA Realty",
+        description: "Quality craftsmanship and integrated master communities.",
         image: "/apartments.png",
         video: "/video2.mp4",
     },
     {
-        title: "Danube Properties - BAYZ 102 Marina",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        title: "Binghatti",
+        description: "Distinctive architecture and branded residential towers.",
         image: "/townhouse.png",
         video: "/video2.mp4",
     },
     {
-        title: "Fairmont Residence - Ras Al Khaima",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        title: "Danube Properties",
+        description: "Value-driven residences with flexible payment plans.",
+        image: "/villa.png",
+        video: "/video2.mp4",
+    },
+    {
+        title: "Fairmont Residence",
+        description: "Value-driven residences with flexible payment plans.",
         image: "/villa.png",
         video: "/video2.mp4",
     },
@@ -91,7 +97,7 @@ const CaseStudy = () => {
                     <AnimatedButton href="" label="View More" className="w-fit transparent-btn2 mt-3" />
 
                 </motion.div>
-                <div className="grid md:grid-cols-3  gap-10">
+                <div className="grid md:grid-cols-3 lg:grid-cols-4  gap-6">
                     {caseStudies.map((item, idx) => (
                         <div
                             className="case-col group  overflow-hidden  transition-shadow duration-200"
