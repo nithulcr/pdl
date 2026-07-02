@@ -19,16 +19,18 @@ const partnersEn = [
     icon: "/partners/sobha2.png",
 
   },
-  {
+
+    {
     id: "03",
-    icon: "/partners/binghatti2.png",
+     icon: "/partners/al-hamra2.svg",
 
   },
   {
     id: "04",
-     icon: "/partners/danube2.png",
+    icon: "/partners/binghatti2.png",
 
   },
+
 
 
 ];
@@ -39,7 +41,7 @@ const Partners = () => {
   return (
     <section className="py-8 pb-6 bg-[var(--foreground)] ">
       <div className="max-w-[1320px] mx-auto px-6 flex  flex-col items-start text-center gap-5 justify-between mb-4">
-        <h5 className="text-medium md:text-xl font-medium mx-auto gold-text uppercase">Our Official UAE Development Partners</h5>
+        <h5 className="text-medium md:text-xl font-medium mx-auto gold-text uppercase">Official UAE Development Partners</h5>
       </div>
       <div className="mx-auto  partners-container lg:hidden">
         
@@ -64,12 +66,12 @@ const Partners = () => {
 
           >
             {partners.map((partner) => (
-              <SwiperSlide key={partner.id}>
+              <SwiperSlide key={partner.id} >
                 <div className="transition-all duration-300 relative top-0 hover:top-[-6px]">
                   <Image
                     src={partner.icon}
                     alt="logo"
-                    className="w-full max-w-[150px] h-full object-contain mx-auto mb-2"
+                    className="w-full max-w-[150px] h-full object-contain mx-auto"
                     width={300}
                     height={300}
                   />
@@ -85,14 +87,14 @@ const Partners = () => {
           <div className="grid grid-cols-4 gap-4">
 
             {partners.map((partner) => (
-              <div key={partner.id}>
-                <div className="transition-all duration-300 relative top-0 hover:top-[-6px]">
+              <div key={partner.id} className="flex items-center justify-center">
+                <div className="transition-all w-full duration-300 relative top-0 hover:top-[-6px]">
                   <Image
                     src={partner.icon}
                     alt="logo"
-                    className="w-full max-w-[180px] h-12 object-contain mx-auto mb-2"
-                    width={100}
-                    height={100}
+                    className="w-full max-w-[180px] max-h-[90px] h-full object-contain mx-auto"
+                    width={300}
+                    height={300}
                   />
                 </div>
               </div>

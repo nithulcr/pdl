@@ -23,6 +23,8 @@ import MainServices from "./MainServices";
 
 import Testimonials from "./Testimonials";
 import Blogs from "./Blogs";
+import ContactForm from "./ContactForm";
+
 
 
 import Footer from "./Footer";
@@ -55,6 +57,7 @@ export default function HomePageClient() {
 
           <Testimonials />
           <Blogs />
+          <ContactForm />
           <Footer />
         </>
       )}
