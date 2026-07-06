@@ -47,7 +47,7 @@ export default function WhoWeAre() {
     <section
       id="WhoWeAre"
       ref={sectionRef}
-      className="py-12 lg:py-24 relative"
+      className="py-12 lg:py-24 relative bg-[var(--background2)]"
     >
       {/* pinned wrapper with 80px top padding */}
       <div ref={pinRef} className="pt-20">

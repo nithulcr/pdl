@@ -87,8 +87,6 @@ export default function ContactForm() {
               placeholder={"Last Name"}
               required
             />
-
-            
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             <input

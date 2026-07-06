@@ -239,9 +239,9 @@ height:100%;
   position: relative;
 }
 
-.partners-container .swiper {
+/* .partners-container .swiper {
   padding-bottom: 70px;
-}
+} */
 
 .swiper-pagination-bullet-active {
   background: var(--siteColor) !important;

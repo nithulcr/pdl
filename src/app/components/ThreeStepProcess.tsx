@@ -63,13 +63,13 @@ export default function ThreeStepProcess() {
 
 
                     {steps.map((step, idx) => (
-                        <div key={step.title} className="flex-1 flex flex-col process-card rounded-2xl p-6 lg:p-8  bg-[var(--background2)] relative transition-all duration-500 relative top-0 hover:top-[-5px]">
+                        <div key={step.title} className="flex-1 flex flex-col process-card rounded-2xl p-4 lg:p-8  bg-[var(--background2)] relative transition-all duration-500 relative top-0 hover:top-[-5px]">
                             <svg width="54" height="54" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="process-card-svg">
                                 <circle cx="28.7426" cy="29.1167" r="28.1875" fill="#e7e7e7ff" />
                                 <circle cx="28.7425" cy="29.1165" r="22.3797" fill="white" />
                                 <path d="M21.3978 29.1167H23.2606M33.3197 29.1167L28.849 24.646M33.3197 29.1167L28.849 33.5874M33.3197 29.1167H25.496" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <div className="gold-text mb-4 text-5xl md:text-7xl font-semibold bg-[linear-gradient(180deg,#000_16%,#D4AF37_88%)] bg-clip-text text-transparent">
+                            <div className="gold-text mb-2 md:mb-4 text-5xl md:text-7xl font-semibold bg-[linear-gradient(180deg,#000_16%,#D4AF37_88%)] bg-clip-text text-transparent">
                                 {step.number}
                             </div>
 
@@ -77,7 +77,7 @@ export default function ThreeStepProcess() {
                             <div className="bg-[var(--blue1)] w-full">
 
                                 <h3 className="text-xl md:text-[24px] font-bold mb-1 text-site">{step.title}</h3>
-                                <p className="font-light  max-w-[310px] pb-2 leading-tight">{step.description}</p>
+                                <p className="font-light text-xs md:text-sm  max-w-[310px] pb-2 leading-tight">{step.description}</p>
                             </div>
                         </div>
                     ))}

@@ -54,7 +54,7 @@ export default function Insights() {
                                 <br /> */}
                                 Today we operate two disciplines under one standard — engineering teams shipping web, mobile and cloud products, and an advisory desk working directly with SOBHA Realty, Binghatti, Danube Properties and Al Hamra to place client capital into the right development, at the right stage.</p>
                         </div>
-                        <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="grid  gap-4 max-w-[500px]">
                             {features.map((item, index) => (
                                 <div
                                     key={index}

@@ -43,21 +43,23 @@ export default function HomePageClient() {
           <Partners />
 
           <WhoWeAre />
+          <OurValues />
+
 
           {/* <ProjectsScroller /> */}
           <Insights />
+          <Services />
           <ThreeStepProcess />
 
-          <OurValues />
+
           <MainServices />
 
-          {/* <Services /> */}
           <CaseStudy />
           <CEO />
 
           <Testimonials />
           <Blogs />
-          <ContactForm />
+          {/* <ContactForm /> */}
           <Footer />
         </>
       )}

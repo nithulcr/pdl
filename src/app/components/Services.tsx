@@ -14,9 +14,6 @@ import SignatureIcon from "../components/SignatureIcon";
 
 
 
-
-
-
 const ServicesDataEn = [
   {
     id: "01",
@@ -50,8 +47,8 @@ const ServicesDataEn = [
     id: "04",
     img: '/hero3.png',
 
-    icon: '/sobha2.png',
-    title: <>Sobha Realty</>,
+    icon: '/partners/al-hamra2.svg',
+    title: <>ALHAMRA</>,
     description: "We focus on craftsmanship and detailing is a part of our legacy, spanning five decades.",
     link: "#",
   },
@@ -70,7 +67,7 @@ const Services = () => {
   useStaggeredFadeUp(fadeRef as React.RefObject<HTMLElement>);
 
   return (
-    <section className="py-14 lg:py-24 bg-[var(--siteColor)]">
+    <section className="py-14 lg:py-24 bg-[var(--foreground)]">
       <div className="">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -133,9 +130,9 @@ const Services = () => {
                     <Image src={choose.img || "/service1.png"} alt="service" width={400} height={400} className="object-cover w-full h-full" />
                   </div>
 
-                  <div className=" md:h-18 h-12 z-1 group-hover:opacity-0 flex items-center  ">
+                  <div className=" md:h-18 h-12 z-1 group-hover:opacity-0 flex ">
                    
-                     <Image src={choose.icon || "/logo-white.png"} alt="service" width={100} height={50} className="h-[50px] w-full max-w-[150px]  object-contain" />
+                     <Image src={choose.icon || "/logo-white.png"} alt="service" width={100} height={70} className="h-[70px] w-fit max-w-[150px] object-start object-contain" />
                   </div>
 
 
@@ -147,7 +144,7 @@ const Services = () => {
                       <h3 className="text-lg uppercase md:text-xl leading-tight font-semibold text-white mt-2 ">{choose.title}</h3>
                       <p className="text-xs text-[#D9D9D9] sm:text-sm lg:mt-2 font-light max-w-[250px] mt-2">{choose.description}</p>
 
-                      <AnimatedButton href="{choose.link}" label="Learn More" className="w-fit transparent-btn2 mt-3" />
+                      {/* <AnimatedButton href="{choose.link}" label="Learn More" className="w-fit transparent-btn2 mt-3" /> */}
                     </div>
                   </div>
                 </div>

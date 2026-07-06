@@ -22,6 +22,8 @@ const navItems = [
             { href: "", label: "Binghati" },
             { href: "", label: "Danube Properties" },
             { href: "", label: "Sobha Realty" },
+            { href: "", label: "ALHAMRA" },
+
 
 
         ],
@@ -195,7 +197,7 @@ export default function Header() {
                                                 transition={{ duration: 0.2 }}
                                                 className="absolute top-full left-1/2 -translate-x-1/2 w-[80vw] max-w-5xl bg-white  shadow-lg z-60"
                                             >
-                                                <div className="p-6 grid grid-cols-3 gap-x-8 gap-y-1">
+                                                <div className="p-6 grid grid-cols-4 gap-x-8 gap-y-1">
                                                     {item.submenu.map((subItem) => (
                                                         <Link
                                                             key={subItem.label}

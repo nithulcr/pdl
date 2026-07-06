@@ -27,7 +27,7 @@ const caseStudies = [
         video: "/video2.mp4",
     },
     {
-        title: "Fairmont Residence",
+        title: "ALHAMRA",
         description: "Value-driven residences with flexible payment plans.",
         image: "/villa.png",
         video: "/video2.mp4",
