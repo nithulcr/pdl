@@ -82,17 +82,19 @@ const CaseStudy = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 0.5 }}
-                    className="heading flex justify-between items-center  text-left mb-14"
+                    className="heading md:flex justify-between items-center  text-left mb-14"
                 >
-                   <div className="max-w-[400px]">
-                     <div className="flex gap-2 text-site mb-3 uppercase text-sm md:justify-start">
-                        <SignatureIcon width={20} height={20} />
-                        Featured
+                    <div>
+                        <div className="max-w-[400px]">
+                            <div className="flex gap-2 text-site mb-3 uppercase text-sm md:justify-start">
+                                <SignatureIcon width={20} height={20} />
+                                Featured
+                            </div>
+                            <h2 ref={fadeRef} className="mt-3  fade-up-stagger text-3xl lg:text-[46px] font-medium mb-1 leading-tight text-site">
+                                Featured Off-Plan Properties
+                            </h2>
+                        </div>
                     </div>
-                    <h2 ref={fadeRef} className="mt-3 text-center md:text-left fade-up-stagger text-3xl lg:text-[46px] font-medium mb-1 leading-tight text-site">
-                       Featured Off-Plan Properties
-                    </h2>
-                   </div>
 
                     <AnimatedButton href="" label="View More" className="w-fit transparent-btn2 mt-3" />
 

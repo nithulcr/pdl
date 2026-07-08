@@ -57,7 +57,7 @@ export default function ThreeStepProcess() {
                    
                 </motion.div>
 
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-5  justify-center">
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5  justify-center">
 
 
 
@@ -69,7 +69,7 @@ export default function ThreeStepProcess() {
                                 <circle cx="28.7425" cy="29.1165" r="22.3797" fill="white" />
                                 <path d="M21.3978 29.1167H23.2606M33.3197 29.1167L28.849 24.646M33.3197 29.1167L28.849 33.5874M33.3197 29.1167H25.496" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <div className="gold-text mb-2 md:mb-4 text-5xl md:text-7xl font-semibold bg-[linear-gradient(180deg,#000_16%,#D4AF37_88%)] bg-clip-text text-transparent">
+                            <div className="gold-text mb-2 md:mb-4 text-4xl md:text-7xl font-semibold bg-[linear-gradient(180deg,#000_16%,#D4AF37_88%)] bg-clip-text text-transparent">
                                 {step.number}
                             </div>
 

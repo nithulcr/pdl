@@ -51,7 +51,7 @@ export default function WhoWeAre() {
     >
       {/* pinned wrapper with 80px top padding */}
       <div ref={pinRef} className="pt-20">
-        <div className="max-w-[1360px] mx-auto px-6">
+        <div className="max-w-[1360px] mx-auto px-4 md:px-6">
           <div className="heading flex flex-col items-center max-w-[900px] mx-auto mb-10">
             <div className="flex items-center gap-2 text-site  uppercase text-sm">
               <SignatureIcon width={20} height={20} />
@@ -60,7 +60,7 @@ export default function WhoWeAre() {
 
             <h2
               ref={headingRef}
-              className="text-center text-3xl lg:text-[48px] font-light mt-6 leading-tight relative"
+              className="text-center text-[27px] text-3xl lg:text-[48px] font-light mt-6 leading-tight relative"
             >
               <span className="relative block">
                 <span className="filling-line-fill">

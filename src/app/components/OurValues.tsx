@@ -101,7 +101,7 @@ const Services = () => {
                     <div className="service-item flex flex-col lg:grid gap-x-20 items-center w-full">
 
                         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10  w-full">
-                            <div className="flex flex-col gap-10 ">
+                            <div className="flex flex-col md:gap-10 gap-6">
                                 <div className="services-rotate-right bg-[#26957d40] md:bg-[var(--background2)] hover:bg-[#26957d40] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-5xl md:text-7xl font-monument">100+</h3>
                                     <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[200px] ml-auto mt-10 lg:mt-20">
@@ -118,7 +118,7 @@ const Services = () => {
                                 </div>
                               
                             </div>
-                            <div className="flex flex-col gap-10  md:mt-[-50]">
+                            <div className="flex flex-col md:gap-10 gap-6 md:mt-[-50]">
                                 <div className="services-rotate-left bg-[#6f8f1042] md:bg-[var(--background2)] hover:bg-[#6f8f1042] relative rounded-2xl p-8 flex flex-col justify-between">
                                     <h3 className="text-5xl md:text-7xl font-monument">120+</h3>
                                     <p className="text-xl md:text-2xl font-medium uppercase leading-snug text-right tracking-wide max-w-[230px] ml-auto mt-10 lg:mt-20">
